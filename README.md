@@ -21,3 +21,11 @@ python app.py
 -OpenAI
 -Flask
 -HuggingFace Embeddings
+
+
+# AWS  CICD Deployment with Github Actions
+
+# login to AWS console 
+
+# create IAM user for deployment
+
