@@ -1,4 +1,23 @@
 {
+
+    "$schema": "https://openapi.vercel.sh/versel.json",
+
+    "git": {
+        "deploymentEnabled": {
+            "dev": false,
+            "internal-*": false,
+            "experiment-*": false,
+            "*-dev": true
+        }
+    },
+
+    "github": {
+        "autoAlias": false,
+        "autoJobCancelation": false,
+        "silent": true,
+        "enabled": false
+    },
+    
     "builds": [
         {
             "src": "api/index.py",
